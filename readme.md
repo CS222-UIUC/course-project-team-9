@@ -1,6 +1,6 @@
 # Team-9 Course Project
 
-![badges](https://img.shields.io/badge/Test%20Coverage-100%25-brightgreen)
+![badges](./badges/main/badges.svg)
 
 ## Frequent used commands
 ### For server
