@@ -1,6 +1,6 @@
 # Team-9 Course Project
 
-![badges](./badges/main/badges.svg)
+![badges](.badges/main/coverage.svg)
 
 ## Frequent used commands
 ### For server
