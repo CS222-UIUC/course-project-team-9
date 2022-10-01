@@ -22,8 +22,3 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pytest test_foo.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: coverage.xml
