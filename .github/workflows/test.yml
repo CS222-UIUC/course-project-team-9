@@ -24,7 +24,7 @@ jobs:
           pip install pytest-cov
           pytest --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
       - uses: action-badges/create-orphan-branch@0.1.0
-          with:
+        with:
           branch-name: main
       - name: Make Coverage Badge
         uses: action-badges/cobertura-coverage-xml-badges@0.2.1
