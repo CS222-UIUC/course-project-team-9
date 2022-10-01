@@ -1,4 +1,4 @@
-# CS 222 Project Team-9
+![badges](https://cs222-uiuc.github.io/course-project-team-9/)
 
 ## Frequent used commands
 ### For server
