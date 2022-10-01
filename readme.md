@@ -10,4 +10,4 @@
 - `lint` added
 - `pytest` added
 - `code coverage badge` added
-- Basic website structure added and tested
+- Basic site structure added and tested
