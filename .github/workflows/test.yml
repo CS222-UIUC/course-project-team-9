@@ -21,7 +21,7 @@ jobs:
         run: |
           pip install pytest
           pip install pytest-cov
-          pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+          pytest test_foo.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
 #      - name: Generate JaCoCo Badge
 #        if: ${{ github.ref == 'refs/heads/master' }}
 #        uses: cicirello/jacoco-badge-generator@v2
