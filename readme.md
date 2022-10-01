@@ -12,7 +12,7 @@
 - npm run build
 
 ## Weekly Review 1
-- `Linter` added
-- `Pytest` added
-- `Coverage badge` added
+- `lint` added
+- `pytest` added
+- `code coverage badge` added
 - Basic website structure added and tested
