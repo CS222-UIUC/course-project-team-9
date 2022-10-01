@@ -1,4 +1,4 @@
-![badges](https://cs222-uiuc.github.io/course-project-team-9/)
+![badges](https://img.shields.io/badge/Test%20Coverage-100%25-brightgreen)
 
 ## Frequent used commands
 ### For server
