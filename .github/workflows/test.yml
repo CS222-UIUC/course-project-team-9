@@ -1,4 +1,4 @@
-name: badge
+name: Test
 on: push
 
 jobs:
