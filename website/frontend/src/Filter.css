@@ -1,0 +1,12 @@
+.Filter {
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: auto;
+    background-color: rgb(19, 41, 75);
+    color: white;
+  }
