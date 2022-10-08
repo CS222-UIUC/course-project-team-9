@@ -15,7 +15,7 @@
 - Basic site structure added and tested
 
 ## Weekly Review 2
-- Learn React and CSS 
+- Learn React and CSS
 - `Title` section added
 - `Filter` section added
 - `Post` section added
