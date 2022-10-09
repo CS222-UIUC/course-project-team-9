@@ -1,6 +1,6 @@
 # Team-9 Course Project
 
-![badges](.badges/main/coverage.svg)
+[![codecov](https://codecov.io/gh/CS222-UIUC/course-project-team-9/branch/main/graph/badge.svg?token=560kNMSO7H)](https://codecov.io/gh/CS222-UIUC/course-project-team-9)
 
 ## Frequent used commands
 ### For server
