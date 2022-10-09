@@ -19,3 +19,4 @@
 - `Title` section added
 - `Filter` section added
 - `Post` section added
+- Improve code coverage
