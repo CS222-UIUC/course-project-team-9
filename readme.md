@@ -8,7 +8,7 @@
 - open another terminal
 - then run `npm start` under `website/frontend` folder
 - test on the site which previous command leads to
-p.s. if you are testing on frontend staff, you can run `npm start` without starting the server.
+- p.s. if you are testing on frontend staff, you can run `npm start` without starting the server.
 ### For server
 - python manage.py runserver
 ### For React
