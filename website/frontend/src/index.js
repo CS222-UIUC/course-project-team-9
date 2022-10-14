@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';

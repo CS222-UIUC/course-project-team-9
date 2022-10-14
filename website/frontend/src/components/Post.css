@@ -1,0 +1,8 @@
+.Post {
+  box-sizing: border-box;
+  width: 70%;
+  overflow: hidden;
+  padding: auto;
+  background-color: white;
+  color: black;
+}

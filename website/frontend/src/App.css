@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav {
+  box-sizing: border-box;
+  width: 100%;
+  float: right;
+  padding: auto;
+  background-color: rgb(19, 41, 75);
+  color: rgb(232, 74, 39);
+}
