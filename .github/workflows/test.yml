@@ -20,13 +20,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install django
-#         pip install -r requirements.txt
-      - name: Test with pytest
-        run: |
           pip install pytest
           pip install pytest-cov
           pip install pytest-django
-          pytest --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
+      - name: Test with pytest
+        working-directory: ./website
+        run: pytest --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
       - name: Make Coverage Badge
         uses: action-badges/cobertura-coverage-xml-badges@0.2.1
         with:
