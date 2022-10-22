@@ -6,3 +6,9 @@
   background-color: white;
   color: black;
 }
+h2 {
+  display: block;
+  font-weight: bold;
+  background-color: rgb(19, 41, 75);
+  color: rgb(232, 74, 39);
+}

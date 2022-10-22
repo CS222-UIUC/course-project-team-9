@@ -210,11 +210,14 @@ function App () {
   }, [])
 
   return (
-    <>
+    <div className="App">
+      <nav className="Nav">
+        <Link to="about">About</Link>
+      </nav>
       <Title />
       <SearchBar posts={posts} setSearchResults={setSearchResults} />
       <ListPage searchResults={searchResults} />
-    </>
+    </div>
   )
 }
 
