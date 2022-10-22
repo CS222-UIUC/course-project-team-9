@@ -37,3 +37,7 @@
 - Displaced posts on the main page
 - Capable of creating, reading, updating, and deleting on posts
 
+## Weekly Review 4
+- Modified site structure
+- Enable loading posts from api
+- Enable searching

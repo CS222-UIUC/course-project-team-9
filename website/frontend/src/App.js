@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import './App.css';
 import Modal from "./components/Modal";
 import Title from './components/Title';
-//import Filter from './components/Filter';
+import Filter from './components/Filter';
 import axios from "axios";
 import { getPosts } from "./api/axios";
 import SearchBar from "./components/SearchBar";
@@ -211,6 +211,7 @@ function App () {
 
   return (
     <>
+      <Title />
       <SearchBar posts={posts} setSearchResults={setSearchResults} />
       <ListPage searchResults={searchResults} />
     </>
