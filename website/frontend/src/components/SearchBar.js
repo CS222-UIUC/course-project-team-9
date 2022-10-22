@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+ 
 const SearchBar = ({ posts, setSearchResults }) => {
   const handleSubmit = (e) => e.preventDefault()
 
@@ -21,7 +23,7 @@ const SearchBar = ({ posts, setSearchResults }) => {
           onChange={handleSearchChange}
         />
         <button className='search__button'>
-          X
+          <FontAwesomeIcon icon={faMagnifyingGlass} />
         </button>
       </form>
     </header>

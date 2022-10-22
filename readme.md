@@ -42,3 +42,4 @@
 - Update posts layout 
 - Enable case insensetive searching
 - Update CSS files
+- Icon added
