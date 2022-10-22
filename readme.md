@@ -8,12 +8,11 @@
 - open another terminal
 - then run `npm start` under `website/frontend` folder
 - test on the site which previous command leads to
-- p.s. if you are testing on frontend, you can run `npm start` without starting the server.
+- [p.s.] if you are testing on frontend, you can run `npm start` without starting the server.
 ### For server
 - python manage.py runserver
 ### For React
 - npm run build
-
 
 ## Weekly Review 1
 - `lint` added
@@ -38,6 +37,8 @@
 - Capable of creating, reading, updating, and deleting on posts
 
 ## Weekly Review 4
-- Modified site structure
+- Modifie site structure
 - Enable loading posts from api
-- Enable searching
+- Update posts layout 
+- Enable case insensetive searching
+- Update CSS files
