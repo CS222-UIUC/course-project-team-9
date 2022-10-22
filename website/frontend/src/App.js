@@ -1,12 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { useState, useEffect } from 'react'
 import {Link} from "react-router-dom";
 //import logo from './logo.svg';
 import './App.css';
-import Modal from "./components/Modal";
 import Title from './components/Title';
-import Filter from './components/Filter';
-import axios from "axios";
 import { getPosts } from "./api/axios";
 import SearchBar from "./components/SearchBar";
 import ListPage from "./components/ListPage";
