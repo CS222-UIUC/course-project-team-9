@@ -23,14 +23,16 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pip install pytest-django
+          pip install django-cors-headers
+          pip install djangorestframework
       - name: Test with pytest
         working-directory: ./website
         run: pytest --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
-      - name: Make Coverage Badge
-        uses: action-badges/cobertura-coverage-xml-badges@0.2.1
-        with:
-          file-name: coverage.svg
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
-          coverage-file-name: coverage.xml
+     # - name: Make Coverage Badge
+      #  uses: action-badges/cobertura-coverage-xml-badges@0.2.1
+     #   with:
+      #    file-name: coverage.svg
+      #    github-token: '${{ secrets.GITHUB_TOKEN }}'
+     #     coverage-file-name: coverage.xml
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
