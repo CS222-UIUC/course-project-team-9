@@ -1,14 +1,14 @@
 import React from 'react'
 import './Post.css'
 
-function Post() {
+const Post = ({ post }) => {
   return (
-    <div className='Post'>
-      <h3>Here is a Post.</h3>
-      <h3>post 1</h3>
-      <h3>post 2</h3>
-      <h3>post 3</h3>
-    </div>
+    <article>
+      <h2>{post.title}</h2>
+      <p>{post.class_and_section}</p>
+      <p>{post.description}</p>
+      <p>POST ID: {post.id}</p>
+    </article>
   )
 }
 
