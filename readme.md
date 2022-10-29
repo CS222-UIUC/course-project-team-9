@@ -43,3 +43,9 @@
 - Enable case insensetive searching
 - Update CSS files
 - Icon added
+
+## Weekly Review 5
+- Create Log-in page
+- Update CSS Style
+- Modify elements arangemenet
+- Test search function
