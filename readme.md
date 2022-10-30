@@ -38,8 +38,8 @@
 
 ## Weekly Review 4
 - Modifie site structure
-- Enable loading posts from api
-- Update posts layout 
+- Enable loading posts from API
+- Update posts layout
 - Enable case insensetive searching
 - Update CSS files
 - Icon added
