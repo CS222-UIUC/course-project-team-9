@@ -27,6 +27,7 @@ function App () {
         <a class="active" href="./">Home</a>
         <Link to="about">About</Link>
         <Link to="login" class="split">Login</Link>
+        <Link to="CreatePost">Create Post</Link>
       </nav>
       <Title />
       <SearchBar posts={posts} setSearchResults={setSearchResults} />

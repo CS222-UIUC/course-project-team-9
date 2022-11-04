@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import App from './App';
 import About from './components/About';
 import Login from './components/Login';
+import CreatePost from './components/CreatePost';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
+        <Route path= "CreatePost" element={<CreatePost />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
