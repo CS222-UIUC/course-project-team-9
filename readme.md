@@ -49,3 +49,8 @@
 - Update CSS Style
 - Modify elements arangemenet
 - Test search function
+
+## Weekly Review 6
+- Create Register page
+- Create post page
+- Update test cases
