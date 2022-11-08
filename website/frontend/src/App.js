@@ -24,9 +24,10 @@ function App () {
   return (
     <div className="App">
       <nav className="topnav">
-        <a class="active" href="./">Home</a>
+        <a className="active" href="./">Home</a>
         <Link to="about">About</Link>
-        <Link to="login" class="split">Login</Link>
+        <Link to="login" className="split">Login</Link>
+        <Link to="register" className = "split">Register</Link>
         <Link to="CreatePost">Create Post</Link>
       </nav>
       <Title />
