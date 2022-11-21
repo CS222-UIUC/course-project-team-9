@@ -10,6 +10,8 @@ import Login from './components/Login';
 import Register from './components/Register';
 import CreatePost from './components/CreatePost';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
