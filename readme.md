@@ -54,3 +54,6 @@
 - Create Register page
 - Create post page
 - Update test cases
+
+## Weekly Review 8
+- Improved Login Page Functionality
