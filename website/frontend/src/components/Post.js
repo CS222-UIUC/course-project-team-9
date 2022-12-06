@@ -7,7 +7,7 @@ const Post = ({ post }) => {
       <h2>{post.title}</h2>
       <p>Class and Section: {post.class_and_section}</p>
       <p>Description: {post.description}</p>
-      <p>ID: {post.id}</p>
+      {/* <p>ID: {post.id}</p> */}
     </article>
   )
 }
