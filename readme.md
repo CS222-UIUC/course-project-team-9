@@ -57,3 +57,5 @@
 
 ## Weekly Review 8
 - Improved Login Page Functionality
+- Fixed search bar error
+- Added button to navigate back home
