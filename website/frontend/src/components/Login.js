@@ -1,10 +1,13 @@
 import React, {useState} from "react";
 // import { useInRouterContext } from "react-router-dom";
 import LoginForm from "./LoginForm";
+import {useNavigate} from 'react-router-dom';
+
 
 function Login() {
+    const navigate = useNavigate();
     const adminUser = {
-        email: "admin@admin.com",
+        email: "user1@gmail.com",
         password: "admin123"
     }
     const [user, setUser] = useState({name: "", email: ""});
@@ -34,6 +37,7 @@ function Login() {
             <div className="welcome">
                 <h2>Welcome, <span>{user.name}</span></h2>
                 <button onClick={Logout}>Logout</button>
+                <button class = "Home" onClick={() => navigate(-1)}>Home</button>
             </div>
         ) : (
             <LoginForm Login={Login} error={error}></LoginForm>
