@@ -8,7 +8,7 @@ const SearchBar = ({ posts, setSearchResults }) => {
   const handleSearchChange = (e) => {
     if (!e.target.value) return setSearchResults(posts)
 
-    const resultsArray = posts.filter(post => post.title.toLowerCase().includes(e.target.value.toLowerCase()) || post.description.toLowerCase().includes(e.target.value.toLowerCase()))
+    const resultsArray = posts.filter(post => post.title.toLowerCase().includes(e.target.value.toLowerCase()) || post.class_and_section.toLowerCase().includes(e.target.value.toLowerCase()) || post.description.toLowerCase().includes(e.target.value.toLowerCase()))
   
     setSearchResults(resultsArray)
   }

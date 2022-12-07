@@ -9,7 +9,7 @@ export const api = axios.create({
 })
 
 export const getPosts = async() => {
-  const response = await api.get('/posts')
+  const response = await api.get('/posts?completed=false')
   return response.data
 }
 
