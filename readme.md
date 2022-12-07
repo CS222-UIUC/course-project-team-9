@@ -1,6 +1,8 @@
-# Team-9 Course Project
+# BuddyUp
 
 [![codecov](https://codecov.io/gh/CS222-UIUC/course-project-team-9/branch/main/graph/badge.svg?token=560kNMSO7H)](https://codecov.io/gh/CS222-UIUC/course-project-team-9)
+
+![alt text](demo.png)
 
 ## Introduction
 Students who come to college can often feel isolated. At such a large school with students of similar ages, we want to bring people together. We want to bring together students at school by connecting each other. Our web app will allow students to connect to one another by setting up posts where several students can meet and study for classes.
