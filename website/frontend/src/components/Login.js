@@ -37,7 +37,7 @@ function Login() {
             <div className="welcome">
                 <h2>Welcome, <span>{user.name}</span></h2>
                 <button onClick={Logout}>Logout</button>
-                <button class = "Home" onClick={() => navigate(-1)}>Home</button>
+                <button class = "Home" onClick={() => navigate("/")}>Home</button>
             </div>
         ) : (
             <LoginForm Login={Login} error={error}></LoginForm>

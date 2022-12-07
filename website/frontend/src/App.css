@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -46,8 +47,7 @@
   float: left;
   color: rgb(19, 41, 75);
   text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
+  padding: 8px 16px;
 }
 
 .topnav a:hover {
@@ -60,3 +60,4 @@
   color: rgb(232, 74, 39);
   background-color: rgb(19, 41, 75);
 }
+

@@ -47,30 +47,31 @@ function CreatePost() {
             <Link to="/register" className = "split">Register</Link>
             <Link to="/CreatePost">Create Post</Link>
         </nav>
+        <h1>Create a post here</h1>
         <div className="form">
-        <form onSubmit={handleSubmit}>
-            <input
-            type="text"
-            value={title}
-            placeholder="Title"
-            onChange={(e) => setTitle(e.target.value)}
-            />
-            <input
-            type="text"
-            value={class_and_section}
-            placeholder="Class and section"
-            onChange={(e) => setClass_and_section(e.target.value)}
-            />
-            <textarea
-            value={description}
-            placeholder="Description"
-            onChange={(e) => setDescription(e.target.value)}
-            />
-
-            <button type="submit">Create Post</button>
-
-            <div className="message">{message ? <p>{message}</p> : null}</div>
-        </form>
+            <form onSubmit={handleSubmit}>
+                <input
+                type="text"
+                value={title}
+                placeholder="Title"
+                onChange={(e) => setTitle(e.target.value)}
+                />
+                <input
+                type="text"
+                value={class_and_section}
+                placeholder="Class and section"
+                onChange={(e) => setClass_and_section(e.target.value)}
+                />
+                <textarea
+                value={description}
+                placeholder="Description"
+                onChange={(e) => setDescription(e.target.value)}
+                />
+                <div className="button">
+                    <button type="submit">Create Post</button>
+                </div> 
+                <div className="message">{message ? <p>{message}</p> : null}</div>
+            </form>
         </div>
     </div>
     

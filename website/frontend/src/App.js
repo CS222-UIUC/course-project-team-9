@@ -9,10 +9,10 @@ import SearchBar from "./components/SearchBar";
 import ListPage from "./components/ListPage";
 
 
-function App () {
-  const [posts, setPosts] = useState([])
-  const [searchResults, setSearchResults] = useState([])
 
+function App () {
+  const [posts, setPosts] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     getPosts().then(json => {
@@ -33,8 +33,12 @@ function App () {
         <Link to="/CreatePost">Create Post</Link>
       </nav>
       <Title />
-      <SearchBar posts={posts} setSearchResults={setSearchResults} />
-      <ListPage searchResults={searchResults} />
+      <div className="container">
+        <SearchBar posts={posts} setSearchResults={setSearchResults} />
+      </div>
+      <div className="container">
+        <ListPage searchResults={searchResults} />
+      </div>
     </div>
   )
 }

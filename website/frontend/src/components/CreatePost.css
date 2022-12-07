@@ -25,7 +25,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    resize: none;
+    resize: vertical;
 }
 
 textarea:focus {
@@ -44,26 +44,9 @@ button[type=submit] {
     cursor: pointer;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: rgb(232, 74, 39);  
-}
-
-.topnav a {
-    float: left;
-    color: rgb(19, 41, 75);
+h1 {
     text-align: center;
-    padding: 14px 16px;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    color: rgb(232, 74, 39);
+    padding: 8px 20px;
     background-color: rgb(19, 41, 75);
-}
-
-.topnav a.split {
-    float: right;
     color: rgb(232, 74, 39);
-    background-color: rgb(19, 41, 75);
 }
