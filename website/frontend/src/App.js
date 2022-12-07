@@ -7,7 +7,7 @@ import { getPosts } from "./api/axios";
 import Title from "./components/Title"
 import SearchBar from "./components/SearchBar";
 import ListPage from "./components/ListPage";
-import Login from "./components/Login";
+
 
 function App () {
   const [posts, setPosts] = useState([])
