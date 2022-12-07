@@ -27,10 +27,10 @@ function App () {
     <div className="App">
       <nav className="topnav">
         <a className="active" href="./">Home</a>
-        <Link to="about">About</Link>
-        <Link to="login" className="split">Login</Link>
-        <Link to="register" className = "split">Register</Link>
-        <Link to="CreatePost">Create Post</Link>
+        <Link to="/about">About</Link>
+        <Link to="/login" className="split">Login</Link>
+        <Link to="/register" className = "split">Register</Link>
+        <Link to="/CreatePost">Create Post</Link>
       </nav>
       <Title />
       <SearchBar posts={posts} setSearchResults={setSearchResults} />
