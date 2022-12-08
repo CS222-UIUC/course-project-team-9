@@ -10,10 +10,20 @@ Students who come to college can often feel isolated. At such a large school wit
 Our website called BuddyUp is a platform for students to look for discussion/ study group partners. Users can upload posts with details of the group, including class and section, as well as other important details such as location and time. The posts can also be categorized by classes and allow filters on the posts (e.g. available time and day). Users can reply to the posts to join the group.  Furthermore, logged-in users can view their profile page, which allows users to find the groups that they joined. Our website differs from other discussion and social websites since our website is created for students so that they can have a better study and college experience.
 
 ## Technical Architecture
---Link to Diagram -- https://drive.google.com/file/d/1B83eOs5XtViV37NegGPSq0Yj-08NiIWn/view?usp=sharing
-Frontend) Made with React and Javascript, displays data to users and shows off posts to users with login page
-Backend) Made with Python to fetch data from database to display in front end, does heavy lifting of filtering posts and sends to front end with the REST API.
-Database) SQL-Lite database, stores all the posts
+![alt text](architecture1.png)
+
+### Frontend 
+- Made with React and Javascript
+- Displays data to users and shows off posts to users with login page
+
+### Backend 
+- Made with Python to fetch data from database to display in front end
+- Does heavy lifting of filtering posts and sends to front end with the REST API.
+
+### Database
+- Made with SQL-Lite database
+- Stores all the posts
+
 ## Installation and Usage
 1. Clone the repo
 2. Install python 
