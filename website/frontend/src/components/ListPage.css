@@ -1,0 +1,12 @@
+main {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(19, 41, 75);
+  border-radius: 4px;
+}
+
+.Post {
+  padding-top: 20px;
+}

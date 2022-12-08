@@ -1,0 +1,8 @@
+.Filter {
+  box-sizing: border-box;
+  width: 20%;
+  float:left;
+  padding: auto;
+  background-color: rgb(19, 41, 75);
+  color: white;
+}

@@ -1,0 +1,18 @@
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 8px 20px;
+    background-color: rgb(19, 41, 75);
+    color: rgb(232, 74, 39);
+  }
+.Title.left {
+  float: left;
+  width: auto;
+  padding-left: 8px;
+}
+.Title.right {
+  overflow: hidden;
+}

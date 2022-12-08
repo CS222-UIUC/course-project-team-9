@@ -1,0 +1,15 @@
+/* article {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  padding: auto;
+  color: black;
+} */
+
+h2 {
+  display: block;
+  font-weight: bold;
+  background-color: rgb(19, 41, 75);
+  color: rgb(232, 74, 39);
+  padding: 8px 20px;
+}
